@@ -1,8 +1,8 @@
-import TicketCard from "@/app/(components)/TicketCard"
+import TicketForm from "@/app/(components)/TicketForm"
 
 const TicketPage = ({params}) => {
   return (
-    <div><TicketCard /></div>
+    <TicketForm />
   )
 }
 
