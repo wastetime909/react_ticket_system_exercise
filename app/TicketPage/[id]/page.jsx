@@ -1,7 +1,8 @@
+import TicketCard from "@/app/(components)/TicketCard"
 
 const TicketPage = ({params}) => {
   return (
-    <div>TicketPage {params.id}</div>
+    <div><TicketCard /></div>
   )
 }
 
